@@ -3,7 +3,33 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <datafiles number="3" name="datafiles">
+    <datafiles number="3" name="Grumble_Labs">
+      <datafile>
+        <name>Grumble Labs AMP Documentation.pdf</name>
+        <exists>-1</exists>
+        <size>106721</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Grumble Labs AMP Documentation.pdf</filename>
+      </datafile>
+    </datafiles>
+  </datafiles>
+  <NewExtensions>
+    <extension index="0">extensions\Chiptune Rock Pack 1</extension>
+    <extension index="1">extensions\Adaptive Music Player</extension>
+    <extension index="2">extensions\Adaptive Music Free Content 1</extension>
+    <extension index="3">extensions\Adaptive Music Free Content 2</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\snd_allybulletundertale</sound>
     <sounds name="Battle Themes">
@@ -15,8 +41,49 @@
       <sound>sound\bgm_michealstheme_withintro</sound>
       <sound>sound\bgm_parkerstheme_withintro</sound>
       <sound>sound\bgm_rogerstheme_withintro</sound>
-      <sound>sound\bgm_taylenastheme_withintro</sound>
+      <sound>sound\bgm_taylenastheme</sound>
       <sound>sound\bgm_tylerstheme_withintro</sound>
+    </sounds>
+    <sounds name="Grumble Labs">
+      <sound>sound\snd_chaos_heavy_0ms</sound>
+      <sound>sound\snd_chaos_medium_0ms</sound>
+      <sound>sound\snd_chaos_light_0ms</sound>
+      <sound>sound\snd_factory_heavy_0ms</sound>
+      <sound>sound\snd_factory_medium_0ms</sound>
+      <sound>sound\snd_factory_light_0ms</sound>
+      <sound>sound\snd_puzzlebox_heavy_0ms</sound>
+      <sound>sound\snd_puzzlebox_medium_0ms</sound>
+      <sound>sound\snd_puzzlebox_light_0ms</sound>
+      <sound>sound\snd_puzzlecube_heavy_0ms</sound>
+      <sound>sound\snd_puzzlecube_medium_0ms</sound>
+      <sound>sound\snd_puzzlecube_light_0ms</sound>
+      <sound>sound\music_chaos0</sound>
+      <sound>sound\music_chaos1</sound>
+      <sound>sound\music_chaos2</sound>
+      <sound>sound\music_factory0</sound>
+      <sound>sound\music_factory1</sound>
+      <sound>sound\music_factory2</sound>
+      <sound>sound\music_puzzlebox0</sound>
+      <sound>sound\music_puzzlebox1</sound>
+      <sound>sound\music_puzzlebox2</sound>
+      <sound>sound\music_puzzlecube0</sound>
+      <sound>sound\music_puzzlecube1</sound>
+      <sound>sound\music_puzzlecube2</sound>
+      <sound>sound\music_hopeless0</sound>
+      <sound>sound\music_hopeless1</sound>
+      <sound>sound\music_hopeless2</sound>
+      <sound>sound\music_hopeless3</sound>
+      <sound>sound\music_sanguine0</sound>
+      <sound>sound\music_sanguine1</sound>
+      <sound>sound\music_sanguine2</sound>
+      <sound>sound\music_sanguine3</sound>
+      <sound>sound\music_plankton0</sound>
+      <sound>sound\music_plankton1</sound>
+      <sound>sound\music_plankton2</sound>
+      <sound>sound\music_glieseshort0</sound>
+      <sound>sound\music_glieseshort1</sound>
+      <sound>sound\music_glieseshort2</sound>
+      <sound>sound\music_glieseshort3</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -30,6 +97,9 @@
     <sprite>sprites\spr_player_overworld_left</sprite>
     <sprite>sprites\spr_player_overworld_up</sprite>
     <sprite>sprites\spr_player_overworld_right</sprite>
+    <sprites name="Grumble Labs">
+      <sprite>sprites\spr_grumblelabs</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_rpgmeadows</background>
@@ -38,9 +108,33 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_fightstart.gml</script>
+    <scripts name="Grumble Labs">
+      <script>scripts\scr_music_init.gml</script>
+      <script>scripts\scr_music_play.gml</script>
+      <script>scripts\scr_music_fadein_play.gml</script>
+      <script>scripts\scr_music_stop.gml</script>
+      <script>scripts\scr_music_fadeout.gml</script>
+      <script>scripts\scr_music_pause.gml</script>
+      <script>scripts\scr_music_unpause.gml</script>
+      <script>scripts\scr_music_crossfade_layer.gml</script>
+      <script>scripts\scr_music_set_global_volume.gml</script>
+      <script>scripts\scr_music_set_layer_volume.gml</script>
+      <script>scripts\scr_music_validTrack.gml</script>
+      <script>scripts\scr_music_step.gml</script>
+      <script>scripts\scr_music_get_player_number.gml</script>
+      <script>scripts\scr_music_crossfadeTaper.gml</script>
+      <script>scripts\scr_music_set_ID_volume.gml</script>
+      <script>scripts\scr_music_calculate_looping_crossfade_progress.gml</script>
+      <script>scripts\scr_music_calculate_layer_crossfade_progress.gml</script>
+      <script>scripts\scr_music_calculate_fadein_progress.gml</script>
+      <script>scripts\scr_music_calculate_fadeout_progress.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\Sans</font>
+    <fonts name="Grumble Labs">
+      <font>fonts\fnt_music_example</font>
+    </fonts>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player_heart</object>
@@ -53,6 +147,10 @@
     <object>objects\obj_dasheffect</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_txt</object>
+    <objects name="Grumble Labs">
+      <object>objects\obj_music_player</object>
+      <object>objects\obj_example_room_controls</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_meadowsfight</room>
@@ -60,6 +158,9 @@
     <room>rooms\rm_hearttest</room>
     <room>rooms\rm_touhoutest</room>
     <room>rooms\rm_smashtest</room>
+    <rooms name="Grumble Labs">
+      <room>rooms\rm_music_example_room</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
