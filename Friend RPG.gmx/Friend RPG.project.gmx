@@ -3,7 +3,86 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <datafiles number="4" name="datafiles">
+    <datafiles number="4" name="TweenGMS">
+      <datafile>
+        <name>Required_Changes.txt</name>
+        <exists>-1</exists>
+        <size>10638</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>52776571883758</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Required_Changes.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Update_Log.txt</name>
+        <exists>-1</exists>
+        <size>8876</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Update_Log.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Script_Reference.html</name>
+        <exists>-1</exists>
+        <size>100927</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Script_Reference.html</filename>
+      </datafile>
+      <datafile>
+        <name>Starter_Guide.html</name>
+        <exists>-1</exists>
+        <size>58530</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Starter_Guide.html</filename>
+      </datafile>
+    </datafiles>
+  </datafiles>
+  <NewExtensions>
+    <extension index="0">extensions\Simple Platformer Character</extension>
+    <extension index="1">extensions\Sprite Exploder</extension>
+    <extension index="2">extensions\Pixel Art Resolution Handling</extension>
+    <extension index="4">extensions\Essential Scripts</extension>
+    <extension index="5">extensions\TweenGMS</extension>
+    <extension index="6">extensions\Basic Platformer Engine</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\snd_allybulletundertale</sound>
     <sounds name="Battle Themes">
@@ -18,6 +97,12 @@
       <sound>sound\bgm_taylenastheme_withintro</sound>
       <sound>sound\bgm_tylerstheme_withintro</sound>
     </sounds>
+    <sounds name="for example purposes only">
+      <sound>sound\snd_arrow</sound>
+      <sound>sound\snd_apply</sound>
+      <sound>sound\snd_fullscreen</sound>
+      <sound>sound\snd_bad</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_heart</sprite>
@@ -30,17 +115,159 @@
     <sprite>sprites\spr_player_overworld_left</sprite>
     <sprite>sprites\spr_player_overworld_up</sprite>
     <sprite>sprites\spr_player_overworld_right</sprite>
+    <sprite>sprites\spr_demo_player</sprite>
+    <sprites name="for example purposes only">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_arrow_left</sprite>
+      <sprite>sprites\spr_arrow_right</sprite>
+      <sprite>sprites\spr_apply</sprite>
+      <sprite>sprites\spr_fullscreen</sprite>
+    </sprites>
+    <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\sp_solid</sprite>
+    <sprite>sprites\sp_platform_Hor</sprite>
+    <sprite>sprites\sp_key</sprite>
+    <sprite>sprites\sp_death</sprite>
+    <sprite>sprites\sp_enemy</sprite>
+    <sprite>sprites\sp_coin</sprite>
+    <sprite>sprites\sp_spike</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sp_enemy2</sprite>
+    <sprite>sprites\sp_bullet</sprite>
+    <sprites name="Sprite-Base">
+      <sprite>sprites\spr_climb</sprite>
+      <sprite>sprites\spr_idle_left</sprite>
+      <sprite>sprites\spr_grab_right</sprite>
+      <sprite>sprites\spr_paddle_right</sprite>
+      <sprite>sprites\spr_throw_left</sprite>
+      <sprite>sprites\spr_run_left</sprite>
+      <sprite>sprites\spr_run_right</sprite>
+      <sprite>sprites\spr_throw_right</sprite>
+      <sprite>sprites\spr_jump_right</sprite>
+      <sprite>sprites\spr_duck_right</sprite>
+      <sprite>sprites\spr_jump_left</sprite>
+      <sprite>sprites\spr_swim_left</sprite>
+      <sprite>sprites\spr_swim_right</sprite>
+      <sprite>sprites\spr_duck_left</sprite>
+      <sprite>sprites\spr_die_right</sprite>
+      <sprite>sprites\spr_grab_left</sprite>
+      <sprite>sprites\spr_die_left</sprite>
+      <sprite>sprites\spr_idle_right</sprite>
+      <sprite>sprites\spr_paddle_left</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_rpgmeadows</background>
     <background>background\bg_overworldtest</background>
+    <backgrounds name="for example purposes only">
+      <background>background\bg_top</background>
+      <background>background\bg_bottom</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_fightstart.gml</script>
+    <script>scripts\scr_sprite_explode.gml</script>
+    <script>scripts\scr_sprite_dissolve.gml</script>
+    <scripts name="resolution">
+      <script>scripts\resolution_set.gml</script>
+      <script>scripts\resolution_switch.gml</script>
+      <script>scripts\resolution_configure.gml</script>
+      <script>scripts\resolution_get_default.gml</script>
+    </scripts>
+    <scripts name="Demo">
+      <script>scripts\set_zheight.gml</script>
+      <script>scripts\set_hover.gml</script>
+    </scripts>
+    <scripts name="Essential Scripts">
+      <scripts name="Drawing">
+        <script>scripts\draw_text_outlined.gml</script>
+        <script>scripts\draw_text_shadow.gml</script>
+        <script>scripts\draw_text_shadow_ext.gml</script>
+        <script>scripts\draw_sprite_outlined.gml</script>
+        <script>scripts\draw_sprite_shadow.gml</script>
+      </scripts>
+      <scripts name="String Manipulation">
+        <script>scripts\string_split.gml</script>
+      </scripts>
+      <scripts name="Approach Value">
+        <script>scripts\approach.gml</script>
+        <script>scripts\angle_approach.gml</script>
+        <script>scripts\smooth_approach.gml</script>
+      </scripts>
+      <scripts name="Chance Functions">
+        <script>scripts\percent_chance.gml</script>
+        <script>scripts\round_chance.gml</script>
+        <script>scripts\set_chance.gml</script>
+        <script>scripts\multi_chance.gml</script>
+      </scripts>
+      <scripts name="List Functions">
+        <script>scripts\ds_list_reverse.gml</script>
+        <script>scripts\ds_list_random.gml</script>
+        <script>scripts\ds_list_delete_all.gml</script>
+      </scripts>
+      <scripts name="Instance Functions">
+        <script>scripts\instance_list_random.gml</script>
+        <script>scripts\instance_nearest_list.gml</script>
+      </scripts>
+      <scripts name="Misc">
+        <script>scripts\mouse_over.gml</script>
+        <script>scripts\stick_to.gml</script>
+        <script>scripts\stick_to_angle.gml</script>
+        <script>scripts\within.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="TweenGMS">
+      <scripts name="Core">
+        <script>scripts\Ease.gml</script>
+        <script>scripts\TweenNull.gml</script>
+        <script>scripts\TweenFire.gml</script>
+        <script>scripts\TweenCreate.gml</script>
+        <script>scripts\TweenPlay.gml</script>
+        <script>scripts\TweenPause.gml</script>
+        <script>scripts\TweenResume.gml</script>
+        <script>scripts\TweenStop.gml</script>
+        <script>scripts\TweenFinish.gml</script>
+        <script>scripts\TweenFinishDelay.gml</script>
+        <script>scripts\TweenReverse.gml</script>
+        <script>scripts\TweenDestroy.gml</script>
+        <script>scripts\TGMS_TweenBool.gml</script>
+        <script>scripts\TGMS_Callback.gml</script>
+        <script>scripts\TGMS_Event.gml</script>
+        <script>scripts\TGMS_TweenGet.gml</script>
+        <script>scripts\TGMS_TweenSet.gml</script>
+        <script>scripts\TGMS_Utility.gml</script>
+        <script>scripts\SharedTweener.gml</script>
+      </scripts>
+      <scripts name="Eases and Properties">
+        <script>scripts\Default_Ease_Algorithms.gml</script>
+        <script>scripts\Default_Property_Setters.gml</script>
+        <script>scripts\Default_Property_Setters_Ext.gml</script>
+      </scripts>
+      <scripts name="Extra (Not Required)">
+        <script>scripts\TPExt.gml</script>
+        <script>scripts\TweenCalc.gml</script>
+        <script>scripts\TweenStep.gml</script>
+        <script>scripts\TweenCopy.gml</script>
+        <script>scripts\TweenDefine.gml</script>
+        <script>scripts\TweenDefault.gml</script>
+        <script>scripts\TweenPath.gml</script>
+        <script>scripts\TGMS_TweenSimple.gml</script>
+        <script>scripts\TGMS_TweenDataStructure.gml</script>
+        <script>scripts\TGMS_TweenView.gml</script>
+        <script>scripts\TGMS_TweenBackground.gml</script>
+        <script>scripts\TGMS_TweenTile.gml</script>
+        <script>scripts\TGMS_TweenSystem.gml</script>
+      </scripts>
+    </scripts>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\sha_pixel.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\Sans</font>
+    <font>fonts\fnt_main</font>
+    <font>fonts\fnt_button</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player_heart</object>
@@ -53,6 +280,40 @@
     <object>objects\obj_dasheffect</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_txt</object>
+    <objects name="rm_explosion">
+      <object>objects\obj_demo_controller</object>
+      <object>objects\obj_demo_player</object>
+      <object>objects\obj_demo_particle</object>
+    </objects>
+    <objects name="rm_dissolve">
+      <object>objects\obj_dissolve_controller</object>
+      <object>objects\obj_dissolve_particle</object>
+      <object>objects\obj_dissolve_player</object>
+    </objects>
+    <object>objects\HELP</object>
+    <object>objects\obj_resolution</object>
+    <objects name="for example purposes only">
+      <object>objects\obj_control</object>
+      <object>objects\obj_option_arrow</object>
+      <object>objects\obj_apply</object>
+      <object>objects\obj_fullscreen</object>
+    </objects>
+    <objects name="TweenGMS">
+      <object>objects\obj_SharedTweener</object>
+    </objects>
+    <object>objects\obj_solid</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_Platform_Hor</object>
+    <object>objects\obj_Platform_Ver</object>
+    <object>objects\obj_key</object>
+    <object>objects\obj_death</object>
+    <object>objects\obj_enemy_new</object>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_room_controller</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_enemy2</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\object69</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_meadowsfight</room>
@@ -60,6 +321,13 @@
     <room>rooms\rm_hearttest</room>
     <room>rooms\rm_touhoutest</room>
     <room>rooms\rm_smashtest</room>
+    <room>rooms\rm_demo_dissolve</room>
+    <room>rooms\rm_demo_explosion</room>
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_main</room>
+    <room>rooms\rm_transition</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
