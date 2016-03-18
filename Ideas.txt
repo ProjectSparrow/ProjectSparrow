@@ -1,0 +1,13 @@
+Save example
+ini_open("SaveGame.sav")
+ini_write_string("General","Username","Mayhem Games")
+ini_write_real("Player","Level",100)
+ini_close()
+
+Load example
+ini_open("SaveGame.sav")
+Username = ini_read_string("General","Username","")
+Level = ini_read_real("General","Username",0)
+ini_close()
+
+http://webcache.googleusercontent.com/search?q=cache:gvmYLuwqyLYJ:gmc.yoyogames.com/index.php%3Fshowtopic%3D527104+&cd=1&hl=en&ct=clnk&gl=us
