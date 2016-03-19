@@ -1,17 +1,6 @@
-///approach(current, target, amount)
-/*
- * Example use:
- * x = approach(x, target_x, 2);
- */
-var c = argument0;
-var t = argument1;
-var a = argument2;
-if (c < t)
-{
-    c = min(c+a, t); 
-}
+/// Approach(start, end, shift);
+
+if (argument0 < argument1)
+    return min(argument0 + argument2, argument1); 
 else
-{
-    c = max(c-a, t);
-}
-return c;
+    return max(argument0 - argument2, argument1);

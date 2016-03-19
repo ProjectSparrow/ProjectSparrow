@@ -79,6 +79,7 @@
     <extension index="0">extensions\Simple Platformer Character</extension>
     <extension index="1">extensions\Sprite Exploder</extension>
     <extension index="2">extensions\Pixel Art Resolution Handling</extension>
+    <extension index="3">extensions\Top-Down Shooter Engine</extension>
     <extension index="4">extensions\Essential Scripts</extension>
     <extension index="5">extensions\TweenGMS</extension>
     <extension index="6">extensions\Basic Platformer Engine</extension>
@@ -155,6 +156,39 @@
       <sprite>sprites\spr_idle_right</sprite>
       <sprite>sprites\spr_paddle_left</sprite>
     </sprites>
+    <sprites name="Terrain">
+      <sprite>sprites\sBlock</sprite>
+      <sprite>sprites\sPlatform</sprite>
+      <sprite>sprites\sPushBlock</sprite>
+      <sprite>sprites\sFade</sprite>
+      <sprite>sprites\sSpring</sprite>
+      <sprite>sprites\sSlopeR</sprite>
+      <sprite>sprites\sSlopeUR</sprite>
+      <sprite>sprites\sSlopeL</sprite>
+      <sprite>sprites\sSlopeUL</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\sPlayerIdle</sprite>
+      <sprite>sprites\sPlayerRun</sprite>
+      <sprite>sprites\sCursor</sprite>
+      <sprite>sprites\sGun</sprite>
+      <sprite>sprites\sBullet</sprite>
+      <sprite>sprites\sExplosion</sprite>
+      <sprite>sprites\sPlayerMask</sprite>
+      <sprite>sprites\sParticle</sprite>
+    </sprites>
+    <sprites name="Enemy">
+      <sprite>sprites\sEnemyIdle</sprite>
+      <sprite>sprites\sEnemyRun</sprite>
+      <sprite>sprites\sEnemyGun</sprite>
+      <sprite>sprites\sEnemyBullet</sprite>
+      <sprite>sprites\sEnemyExplosion</sprite>
+      <sprite>sprites\sParticle2</sprite>
+    </sprites>
+    <sprite>sprites\sCamTrap</sprite>
+    <sprite>sprites\sFont</sprite>
+    <sprite>sprites\sIcon</sprite>
+    <sprite>sprites\sBanner</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_rpgmeadows</background>
@@ -163,6 +197,7 @@
       <background>background\bg_top</background>
       <background>background\bg_bottom</background>
     </backgrounds>
+    <background>background\bgTemp</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -260,6 +295,19 @@
         <script>scripts\TGMS_TweenSystem.gml</script>
       </scripts>
     </scripts>
+    <script>scripts\Save.gml</script>
+    <script>scripts\Load.gml</script>
+    <script>scripts\Approach.gml</script>
+    <script>scripts\OnGround.gml</script>
+    <scripts name="Trails">
+      <script>scripts\TrailAddNull.gml</script>
+      <script>scripts\TrailCreate.gml</script>
+      <script>scripts\TrailDraw.gml</script>
+      <script>scripts\TrailDrift.gml</script>
+      <script>scripts\TrailScatter.gml</script>
+      <script>scripts\TrailUpdate.gml</script>
+    </scripts>
+    <script>scripts\PlaceMeetingException.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\sha_pixel.shader</shader>
@@ -313,9 +361,39 @@
     <object>objects\obj_spike</object>
     <object>objects\obj_enemy2</object>
     <object>objects\obj_bullet</object>
-    <object>objects\object69</object>
+    <object>objects\BasePC</object>
+    <object>objects\oGame</object>
+    <objects name="Parents">
+      <object>objects\oParSolid</object>
+      <object>objects\oParEntity</object>
+    </objects>
+    <objects name="Terrain">
+      <object>objects\oBlock</object>
+      <object>objects\oSlopeR</object>
+      <object>objects\oSlopeL</object>
+      <object>objects\oSlopeUR</object>
+      <object>objects\oSlopeUL</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\oPlayer</object>
+      <object>objects\oGunPickup</object>
+      <object>objects\oBullet</object>
+      <object>objects\oExplosion</object>
+      <object>objects\oBlood</object>
+      <object>objects\oCamera</object>
+      <object>objects\oParticle</object>
+    </objects>
+    <objects name="Enemy">
+      <object>objects\oEnemy</object>
+      <object>objects\oEnemyBullet</object>
+      <object>objects\oEnemyExplosion</object>
+      <object>objects\oEnemyBlood</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room0</room>
+    <room>rooms\rm_init</room>
+    <room>rooms\room1</room>
     <room>rooms\rm_meadowsfight</room>
     <room>rooms\rm_overworldtest</room>
     <room>rooms\rm_hearttest</room>
@@ -323,10 +401,8 @@
     <room>rooms\rm_smashtest</room>
     <room>rooms\rm_demo_dissolve</room>
     <room>rooms\rm_demo_explosion</room>
-    <room>rooms\rm_init</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_transition</room>
-    <room>rooms\room1</room>
     <room>rooms\room2</room>
   </rooms>
   <help>
