@@ -100,8 +100,8 @@ else { //if current character is more than the amount in the current message
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_rectangle(10,350,790,470,false)
-draw_text(x, y, message_draw); //draw the text at the coordinates
+            <string>draw_text(x, y, message_draw); //draw the text at the coordinates
+instance_create(x,y,obj_txtbox)
 </string>
           </argument>
         </arguments>

@@ -146,6 +146,7 @@
     <object>objects\obj_invis_barrier</object>
     <object>objects\obj_dasheffect</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_txtbox</object>
     <object>objects\obj_txt</object>
     <objects name="Grumble Labs">
       <object>objects\obj_music_player</object>
@@ -153,14 +154,14 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="Grumble Labs">
+      <room>rooms\rm_music_example_room</room>
+    </rooms>
     <room>rooms\rm_meadowsfight</room>
     <room>rooms\rm_overworldtest</room>
     <room>rooms\rm_hearttest</room>
     <room>rooms\rm_touhoutest</room>
     <room>rooms\rm_smashtest</room>
-    <rooms name="Grumble Labs">
-      <room>rooms\rm_music_example_room</room>
-    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
