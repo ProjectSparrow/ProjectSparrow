@@ -3,12 +3,29 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="3" name="datafiles">
-    <datafiles number="3" name="Grumble_Labs">
+  <datafiles number="38" name="datafiles">
+    <datafiles number="38" name="TweenGMS">
       <datafile>
-        <name>Grumble Labs AMP Documentation.pdf</name>
+        <name>Required_Changes.txt</name>
         <exists>-1</exists>
-        <size>106721</size>
+        <size>10638</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>52776571883758</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Required_Changes.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Update_Log.txt</name>
+        <exists>-1</exists>
+        <size>8876</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -20,15 +37,638 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Grumble Labs AMP Documentation.pdf</filename>
+        <filename>Update_Log.txt</filename>
       </datafile>
+      <datafile>
+        <name>Script_Reference.html</name>
+        <exists>-1</exists>
+        <size>100927</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Script_Reference.html</filename>
+      </datafile>
+      <datafile>
+        <name>Starter_Guide.html</name>
+        <exists>-1</exists>
+        <size>58530</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Starter_Guide.html</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="38" name="YoYoRPG_Manual">
+      <datafile>
+        <name>index.html</name>
+        <exists>-1</exists>
+        <size>2927</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>index.html</filename>
+      </datafile>
+      <datafile>
+        <name>style.css</name>
+        <exists>-1</exists>
+        <size>2842</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>style.css</filename>
+      </datafile>
+      <datafiles number="38" name="Images">
+        <datafile>
+          <name>AnimationSet.png</name>
+          <exists>-1</exists>
+          <size>64556</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>AnimationSet.png</filename>
+        </datafile>
+        <datafile>
+          <name>Buttons.png</name>
+          <exists>-1</exists>
+          <size>846</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Buttons.png</filename>
+        </datafile>
+        <datafile>
+          <name>ChestCreationCode.png</name>
+          <exists>-1</exists>
+          <size>351411</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>ChestCreationCode.png</filename>
+        </datafile>
+        <datafile>
+          <name>Core_Concepts_CreationCode.png</name>
+          <exists>-1</exists>
+          <size>485754</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Core_Concepts_CreationCode.png</filename>
+        </datafile>
+        <datafile>
+          <name>Core_Concepts_CreationCodeExample.png</name>
+          <exists>-1</exists>
+          <size>28945</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Core_Concepts_CreationCodeExample.png</filename>
+        </datafile>
+        <datafile>
+          <name>Core_Concepts_ObjParMobile.png</name>
+          <exists>-1</exists>
+          <size>23885</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Core_Concepts_ObjParMobile.png</filename>
+        </datafile>
+        <datafile>
+          <name>Header.png</name>
+          <exists>-1</exists>
+          <size>179582</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Header.png</filename>
+        </datafile>
+        <datafile>
+          <name>NPC_Dialogue.png</name>
+          <exists>-1</exists>
+          <size>57430</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>NPC_Dialogue.png</filename>
+        </datafile>
+        <datafile>
+          <name>Quests_CreateEvent.png</name>
+          <exists>-1</exists>
+          <size>30416</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Quests_CreateEvent.png</filename>
+        </datafile>
+        <datafile>
+          <name>Instance_Name.png</name>
+          <exists>-1</exists>
+          <size>33420</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Instance_Name.png</filename>
+        </datafile>
+        <datafile>
+          <name>Instance_NPC.png</name>
+          <exists>-1</exists>
+          <size>182156</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Instance_NPC.png</filename>
+        </datafile>
+        <datafile>
+          <name>Quest_Manager.png</name>
+          <exists>-1</exists>
+          <size>17173</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Quest_Manager.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Animated.png</name>
+          <exists>-1</exists>
+          <size>204341</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Animated.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Decoration.png</name>
+          <exists>-1</exists>
+          <size>121588</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Decoration.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Elements.png</name>
+          <exists>-1</exists>
+          <size>154476</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Elements.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Finished.png</name>
+          <exists>-1</exists>
+          <size>186651</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Finished.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_FirstTiles.png</name>
+          <exists>-1</exists>
+          <size>158177</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_FirstTiles.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Limits.png</name>
+          <exists>-1</exists>
+          <size>197812</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Limits.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_NameDoor.png</name>
+          <exists>-1</exists>
+          <size>48261</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_NameDoor.png</filename>
+        </datafile>
+        <datafile>
+          <name>Room_Tilesets.png</name>
+          <exists>-1</exists>
+          <size>68590</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Room_Tilesets.png</filename>
+        </datafile>
+      </datafiles>
+      <datafiles number="38" name="Pages">
+        <datafile>
+          <name>Animation.html</name>
+          <exists>-1</exists>
+          <size>5426</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Animation.html</filename>
+        </datafile>
+        <datafile>
+          <name>Core_Concepts.html</name>
+          <exists>-1</exists>
+          <size>7117</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Core_Concepts.html</filename>
+        </datafile>
+        <datafile>
+          <name>Creating_An_Area.html</name>
+          <exists>-1</exists>
+          <size>9373</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Creating_An_Area.html</filename>
+        </datafile>
+        <datafile>
+          <name>Dialogue.html</name>
+          <exists>-1</exists>
+          <size>7552</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Dialogue.html</filename>
+        </datafile>
+        <datafile>
+          <name>Getting_Started.html</name>
+          <exists>-1</exists>
+          <size>2521</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Getting_Started.html</filename>
+        </datafile>
+        <datafile>
+          <name>Items_And_Weapons.html</name>
+          <exists>-1</exists>
+          <size>5380</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Items_And_Weapons.html</filename>
+        </datafile>
+        <datafile>
+          <name>Modules.html</name>
+          <exists>-1</exists>
+          <size>2092</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Modules.html</filename>
+        </datafile>
+        <datafile>
+          <name>Object_Overview.html</name>
+          <exists>-1</exists>
+          <size>5965</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Object_Overview.html</filename>
+        </datafile>
+        <datafile>
+          <name>Quests.html</name>
+          <exists>-1</exists>
+          <size>18360</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Quests.html</filename>
+        </datafile>
+        <datafile>
+          <name>Reference.html</name>
+          <exists>-1</exists>
+          <size>3854</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Reference.html</filename>
+        </datafile>
+        <datafile>
+          <name>Sprite_Sets.html</name>
+          <exists>-1</exists>
+          <size>4648</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Sprite_Sets.html</filename>
+        </datafile>
+        <datafile>
+          <name>Adding_Instances.html</name>
+          <exists>-1</exists>
+          <size>13650</size>
+          <exportAction>2</exportAction>
+          <exportDir></exportDir>
+          <overwrite>0</overwrite>
+          <freeData>-1</freeData>
+          <removeEnd>0</removeEnd>
+          <store>0</store>
+          <ConfigOptions>
+            <Config name="Default">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+          </ConfigOptions>
+          <filename>Adding_Instances.html</filename>
+        </datafile>
+      </datafiles>
     </datafiles>
   </datafiles>
   <NewExtensions>
-    <extension index="0">extensions\Chiptune Rock Pack 1</extension>
-    <extension index="1">extensions\Adaptive Music Player</extension>
-    <extension index="2">extensions\Adaptive Music Free Content 1</extension>
-    <extension index="3">extensions\Adaptive Music Free Content 2</extension>
+    <extension index="0">extensions\Simple Platformer Character</extension>
+    <extension index="1">extensions\Sprite Exploder</extension>
+    <extension index="2">extensions\Pixel Art Resolution Handling</extension>
+    <extension index="3">extensions\Top-Down Shooter Engine</extension>
+    <extension index="4">extensions\Essential Scripts</extension>
+    <extension index="5">extensions\TweenGMS</extension>
+    <extension index="6">extensions\Basic Platformer Engine</extension>
+    <extension index="7">extensions\YoYo RPG</extension>
+    <extension index="8">extensions\Simple Version Checker</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\snd_allybulletundertale</sound>
@@ -41,49 +681,31 @@
       <sound>sound\bgm_michealstheme_withintro</sound>
       <sound>sound\bgm_parkerstheme_withintro</sound>
       <sound>sound\bgm_rogerstheme_withintro</sound>
-      <sound>sound\bgm_taylenastheme</sound>
+      <sound>sound\bgm_taylenastheme_withintro</sound>
       <sound>sound\bgm_tylerstheme_withintro</sound>
     </sounds>
-    <sounds name="Grumble Labs">
-      <sound>sound\snd_chaos_heavy_0ms</sound>
-      <sound>sound\snd_chaos_medium_0ms</sound>
-      <sound>sound\snd_chaos_light_0ms</sound>
-      <sound>sound\snd_factory_heavy_0ms</sound>
-      <sound>sound\snd_factory_medium_0ms</sound>
-      <sound>sound\snd_factory_light_0ms</sound>
-      <sound>sound\snd_puzzlebox_heavy_0ms</sound>
-      <sound>sound\snd_puzzlebox_medium_0ms</sound>
-      <sound>sound\snd_puzzlebox_light_0ms</sound>
-      <sound>sound\snd_puzzlecube_heavy_0ms</sound>
-      <sound>sound\snd_puzzlecube_medium_0ms</sound>
-      <sound>sound\snd_puzzlecube_light_0ms</sound>
-      <sound>sound\music_chaos0</sound>
-      <sound>sound\music_chaos1</sound>
-      <sound>sound\music_chaos2</sound>
-      <sound>sound\music_factory0</sound>
-      <sound>sound\music_factory1</sound>
-      <sound>sound\music_factory2</sound>
-      <sound>sound\music_puzzlebox0</sound>
-      <sound>sound\music_puzzlebox1</sound>
-      <sound>sound\music_puzzlebox2</sound>
-      <sound>sound\music_puzzlecube0</sound>
-      <sound>sound\music_puzzlecube1</sound>
-      <sound>sound\music_puzzlecube2</sound>
-      <sound>sound\music_hopeless0</sound>
-      <sound>sound\music_hopeless1</sound>
-      <sound>sound\music_hopeless2</sound>
-      <sound>sound\music_hopeless3</sound>
-      <sound>sound\music_sanguine0</sound>
-      <sound>sound\music_sanguine1</sound>
-      <sound>sound\music_sanguine2</sound>
-      <sound>sound\music_sanguine3</sound>
-      <sound>sound\music_plankton0</sound>
-      <sound>sound\music_plankton1</sound>
-      <sound>sound\music_plankton2</sound>
-      <sound>sound\music_glieseshort0</sound>
-      <sound>sound\music_glieseshort1</sound>
-      <sound>sound\music_glieseshort2</sound>
-      <sound>sound\music_glieseshort3</sound>
+    <sounds name="for example purposes only">
+      <sound>sound\snd_arrow</sound>
+      <sound>sound\snd_apply</sound>
+      <sound>sound\snd_fullscreen</sound>
+      <sound>sound\snd_bad</sound>
+    </sounds>
+    <sounds name="SFX">
+      <sound>sound\snd_BushCut</sound>
+      <sound>sound\snd_CoinCollect</sound>
+      <sound>sound\snd_Death</sound>
+      <sound>sound\snd_DoorOpen</sound>
+      <sound>sound\snd_EnemyAttack</sound>
+      <sound>sound\snd_EnemyDeath</sound>
+      <sound>sound\snd_GetHit</sound>
+      <sound>sound\snd_HeartGet</sound>
+      <sound>sound\snd_JarHit</sound>
+      <sound>sound\snd_Select</sound>
+      <sound>sound\snd_SwordSlash</sound>
+      <sound>sound\snd_Positive</sound>
+      <sound>sound\snd_Negative</sound>
+      <sound>sound\snd_StorePositiveDing</sound>
+      <sound>sound\snd_StoreNegativeDing</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -97,44 +719,819 @@
     <sprite>sprites\spr_player_overworld_left</sprite>
     <sprite>sprites\spr_player_overworld_up</sprite>
     <sprite>sprites\spr_player_overworld_right</sprite>
-    <sprites name="Grumble Labs">
-      <sprite>sprites\spr_grumblelabs</sprite>
+    <sprite>sprites\spr_demo_player</sprite>
+    <sprites name="for example purposes only">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_arrow_left</sprite>
+      <sprite>sprites\spr_arrow_right</sprite>
+      <sprite>sprites\spr_apply</sprite>
+      <sprite>sprites\spr_fullscreen</sprite>
     </sprites>
+    <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\sp_solid</sprite>
+    <sprite>sprites\sp_platform_Hor</sprite>
+    <sprite>sprites\sp_key</sprite>
+    <sprite>sprites\sp_death</sprite>
+    <sprite>sprites\sp_enemy</sprite>
+    <sprite>sprites\sp_coin</sprite>
+    <sprite>sprites\sp_spike</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sp_enemy2</sprite>
+    <sprite>sprites\sp_bullet</sprite>
+    <sprites name="Sprite-Base">
+      <sprite>sprites\spr_climb</sprite>
+      <sprite>sprites\spr_idle_left</sprite>
+      <sprite>sprites\spr_grab_right</sprite>
+      <sprite>sprites\spr_paddle_right</sprite>
+      <sprite>sprites\spr_throw_left</sprite>
+      <sprite>sprites\spr_run_left</sprite>
+      <sprite>sprites\spr_run_right</sprite>
+      <sprite>sprites\spr_throw_right</sprite>
+      <sprite>sprites\spr_jump_right</sprite>
+      <sprite>sprites\spr_duck_right</sprite>
+      <sprite>sprites\spr_jump_left</sprite>
+      <sprite>sprites\spr_swim_left</sprite>
+      <sprite>sprites\spr_swim_right</sprite>
+      <sprite>sprites\spr_duck_left</sprite>
+      <sprite>sprites\spr_die_right</sprite>
+      <sprite>sprites\spr_grab_left</sprite>
+      <sprite>sprites\spr_die_left</sprite>
+      <sprite>sprites\spr_idle_right</sprite>
+      <sprite>sprites\spr_paddle_left</sprite>
+    </sprites>
+    <sprites name="Terrain">
+      <sprite>sprites\sBlock</sprite>
+      <sprite>sprites\sPlatform</sprite>
+      <sprite>sprites\sPushBlock</sprite>
+      <sprite>sprites\sFade</sprite>
+      <sprite>sprites\sSpring</sprite>
+      <sprite>sprites\sSlopeR</sprite>
+      <sprite>sprites\sSlopeUR</sprite>
+      <sprite>sprites\sSlopeL</sprite>
+      <sprite>sprites\sSlopeUL</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\sPlayerIdle</sprite>
+      <sprite>sprites\sPlayerRun</sprite>
+      <sprite>sprites\sCursor</sprite>
+      <sprite>sprites\sGun</sprite>
+      <sprite>sprites\sBullet</sprite>
+      <sprite>sprites\sExplosion</sprite>
+      <sprite>sprites\sPlayerMask</sprite>
+      <sprite>sprites\sParticle</sprite>
+      <sprites name="Boy">
+        <sprites name="Walking">
+          <sprite>sprites\sprPlayerWalkSouth</sprite>
+          <sprite>sprites\sprPlayerWalkNorth</sprite>
+          <sprite>sprites\sprPlayerWalkEast</sprite>
+          <sprite>sprites\sprPlayerWalkWest</sprite>
+        </sprites>
+        <sprites name="Attacking">
+          <sprite>sprites\sprPlayerAttackSouth</sprite>
+          <sprite>sprites\sprPlayerAttackNorth</sprite>
+          <sprite>sprites\sprPlayerAttackEast</sprite>
+          <sprite>sprites\sprPlayerAttackWest</sprite>
+          <sprite>sprites\sprBoyAttackSpecial</sprite>
+          <sprite>sprites\sprPlayerAttackMask</sprite>
+        </sprites>
+        <sprites name="Idle">
+          <sprite>sprites\sprPlayerIdleSouth</sprite>
+          <sprite>sprites\sprPlayerIdleNorth</sprite>
+          <sprite>sprites\sprPlayerIdleEast</sprite>
+          <sprite>sprites\sprPlayerIdleWest</sprite>
+        </sprites>
+        <sprites name="Stagger">
+          <sprite>sprites\sprBoyStaggerSouth</sprite>
+          <sprite>sprites\sprBoyStaggerNorth</sprite>
+          <sprite>sprites\sprBoyStaggerWest</sprite>
+          <sprite>sprites\sprBoyStaggerEast</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Girl">
+        <sprites name="Walking">
+          <sprite>sprites\sprGirlWalkSouth</sprite>
+          <sprite>sprites\sprGirlWalkNorth</sprite>
+          <sprite>sprites\sprGirlWalkEast</sprite>
+          <sprite>sprites\sprGirlWalkWest</sprite>
+        </sprites>
+        <sprites name="Attacking">
+          <sprite>sprites\sprGirlAttackSouth</sprite>
+          <sprite>sprites\sprGirlAttackNorth</sprite>
+          <sprite>sprites\sprGirlAttackEast</sprite>
+          <sprite>sprites\sprGirlAttackWest</sprite>
+          <sprite>sprites\sprGirlAttackSpecial</sprite>
+        </sprites>
+        <sprites name="Idle">
+          <sprite>sprites\sprGirlIdleSouth</sprite>
+          <sprite>sprites\sprGirlIdleNorth</sprite>
+          <sprite>sprites\sprGirlIdleEast</sprite>
+          <sprite>sprites\sprGirlIdleWest</sprite>
+        </sprites>
+        <sprites name="Stagger">
+          <sprite>sprites\sprGirlStaggerSouth</sprite>
+          <sprite>sprites\sprGirlStaggerNorth</sprite>
+          <sprite>sprites\sprGirlStaggerWest</sprite>
+          <sprite>sprites\sprGirlStaggerEast</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Masks">
+        <sprite>sprites\sprPlayerMask</sprite>
+        <sprite>sprites\sprSnowMonsterMask</sprite>
+      </sprites>
+      <sprites name="Weapons">
+        <sprites name="Wooden Sword">
+          <sprite>sprites\sprSwordWoodenSouth</sprite>
+          <sprite>sprites\sprSwordWoodenNorth</sprite>
+          <sprite>sprites\sprSwordWoodenEast</sprite>
+          <sprite>sprites\sprSwordWoodenWest</sprite>
+        </sprites>
+        <sprites name="Metal Sword">
+          <sprite>sprites\sprSwordMetalSouth</sprite>
+          <sprite>sprites\sprSwordMetalNorth</sprite>
+          <sprite>sprites\sprSwordMetalEast</sprite>
+          <sprite>sprites\sprSwordMetalWest</sprite>
+        </sprites>
+        <sprites name="Golden">
+          <sprite>sprites\sprSwordGoldenSouth</sprite>
+          <sprite>sprites\sprSwordGoldenNorth</sprite>
+          <sprite>sprites\sprSwordGoldenEast</sprite>
+          <sprite>sprites\sprSwordGoldenWest</sprite>
+        </sprites>
+      </sprites>
+      <sprite>sprites\sprDeathBones</sprite>
+    </sprites>
+    <sprites name="Enemy">
+      <sprite>sprites\sEnemyIdle</sprite>
+      <sprite>sprites\sEnemyRun</sprite>
+      <sprite>sprites\sEnemyGun</sprite>
+      <sprite>sprites\sEnemyBullet</sprite>
+      <sprite>sprites\sEnemyExplosion</sprite>
+      <sprite>sprites\sParticle2</sprite>
+    </sprites>
+    <sprite>sprites\sCamTrap</sprite>
+    <sprite>sprites\sFont</sprite>
+    <sprite>sprites\sIcon</sprite>
+    <sprite>sprites\sBanner</sprite>
+    <sprites name="Title">
+      <sprite>sprites\sprTitleLogo</sprite>
+      <sprite>sprites\sprTitleSplash</sprite>
+      <sprite>sprites\sprExitButton</sprite>
+      <sprite>sprites\sprLoadButton</sprite>
+      <sprite>sprites\sprNewGameButton</sprite>
+      <sprite>sprites\sprCharacterBoy</sprite>
+      <sprite>sprites\sprCharacterGirl</sprite>
+      <sprite>sprites\sprPressToStart</sprite>
+    </sprites>
+    <sprites name="Mobiles">
+      <sprites name="Docile">
+        <sprites name="Chicken">
+          <sprite>sprites\sprChickenWalkSouth</sprite>
+          <sprite>sprites\sprChickenWalkNorth</sprite>
+          <sprite>sprites\sprChickenWalkEast</sprite>
+          <sprite>sprites\sprChickenWalkWest</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Enemies">
+        <sprites name="Forest Scorpion">
+          <sprites name="Walk">
+            <sprite>sprites\sprScorpionWalkSouth</sprite>
+            <sprite>sprites\sprScorpionWalkNorth</sprite>
+            <sprite>sprites\sprScorpionWalkEast</sprite>
+            <sprite>sprites\sprScorpionWalkWest</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprScorpionIdleSouth</sprite>
+            <sprite>sprites\sprScorpionIdleNorth</sprite>
+            <sprite>sprites\sprScorpionIdleEast</sprite>
+            <sprite>sprites\sprScorpionIdleWest</sprite>
+          </sprites>
+          <sprites name="Attack">
+            <sprite>sprites\sprScorpionAttackWest</sprite>
+            <sprite>sprites\sprScorpionAttackEast</sprite>
+            <sprite>sprites\sprScorpionAttackSouth</sprite>
+            <sprite>sprites\sprScorpionAttackNorth</sprite>
+          </sprites>
+          <sprites name="Stagger">
+            <sprite>sprites\sprScorpionStaggerSouth</sprite>
+            <sprite>sprites\sprScorpionStaggerNorth</sprite>
+            <sprite>sprites\sprScorpionStaggerEast</sprite>
+            <sprite>sprites\sprScorpionStaggerWest</sprite>
+          </sprites>
+          <sprite>sprites\sprScorpionBones</sprite>
+        </sprites>
+        <sprites name="Desert Scorpion">
+          <sprites name="Walk">
+            <sprite>sprites\sprDesertScorpionWalkSouth</sprite>
+            <sprite>sprites\sprDesertScorpionWalkNorth</sprite>
+            <sprite>sprites\sprDesertScorpionWalkWest</sprite>
+            <sprite>sprites\sprDesertScorpionWalkEast</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprDesertScorpionIdleSouth</sprite>
+            <sprite>sprites\sprDesertScorpionIdleNorth</sprite>
+            <sprite>sprites\sprDesertScorpionIdleWest</sprite>
+            <sprite>sprites\sprDesertScorpionIdleEast</sprite>
+          </sprites>
+          <sprites name="Attack">
+            <sprite>sprites\sprDesertScorpionAttackSouth</sprite>
+            <sprite>sprites\sprDesertScorpionAttackNorth</sprite>
+            <sprite>sprites\sprDesertScorpionAttackWest</sprite>
+            <sprite>sprites\sprDesertScorpionAttackEast</sprite>
+          </sprites>
+          <sprites name="Stagger">
+            <sprite>sprites\sprDesertScorpionStaggerSouth</sprite>
+            <sprite>sprites\sprDesertScorpionStaggerNorth</sprite>
+            <sprite>sprites\sprDesertScorpionStaggerWest</sprite>
+            <sprite>sprites\sprDesertScorpionStaggerEast</sprite>
+          </sprites>
+          <sprite>sprites\sprDesertScorpionBones</sprite>
+        </sprites>
+        <sprites name="Snow Scorpion">
+          <sprites name="Walk">
+            <sprite>sprites\sprSnowScorpionWalkSouth</sprite>
+            <sprite>sprites\sprSnowScorpionWalkNorth</sprite>
+            <sprite>sprites\sprSnowScorpionWalkWest</sprite>
+            <sprite>sprites\sprSnowScorpionWalkEast</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprSnowScorpionIdleSouth</sprite>
+            <sprite>sprites\sprSnowScorpionIdleNorth</sprite>
+            <sprite>sprites\sprSnowScorpionIdleWest</sprite>
+            <sprite>sprites\sprSnowScorpionIdleEast</sprite>
+          </sprites>
+          <sprites name="Attack">
+            <sprite>sprites\sprSnowScorpionAttackSouth</sprite>
+            <sprite>sprites\sprSnowScorpionAttackNorth</sprite>
+            <sprite>sprites\sprSnowScorpionAttackWest</sprite>
+            <sprite>sprites\sprSnowScorpionAttackEast</sprite>
+          </sprites>
+          <sprites name="Stagger">
+            <sprite>sprites\sprSnowScorpionStaggerSouth</sprite>
+            <sprite>sprites\sprSnowScorpionStaggerNorth</sprite>
+            <sprite>sprites\sprSnowScorpionStaggerWest</sprite>
+            <sprite>sprites\sprSnowScorpionStaggerEast</sprite>
+          </sprites>
+          <sprite>sprites\sprSnowScorpionBones</sprite>
+        </sprites>
+        <sprites name="Snow Monster">
+          <sprites name="Walk">
+            <sprite>sprites\sprSnowMonsterWalkSouth</sprite>
+            <sprite>sprites\sprSnowMonsterWalkNorth</sprite>
+            <sprite>sprites\sprSnowMonsterWalkWest</sprite>
+            <sprite>sprites\sprSnowMonsterWalkEast</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprSnowMonsterIdleSouth</sprite>
+            <sprite>sprites\sprSnowMonsterIdleNorth</sprite>
+            <sprite>sprites\sprSnowMonsterIdleWest</sprite>
+            <sprite>sprites\sprSnowMonsterIdleEast</sprite>
+          </sprites>
+          <sprites name="Attack">
+            <sprite>sprites\sprSnowMonsterAttackSouth</sprite>
+            <sprite>sprites\sprSnowMonsterAttackNorth</sprite>
+            <sprite>sprites\sprSnowMonsterAttackWest</sprite>
+            <sprite>sprites\sprSnowMonsterAttackEast</sprite>
+          </sprites>
+          <sprites name="Stagger">
+            <sprite>sprites\sprSnowMonsterStaggerSouth</sprite>
+            <sprite>sprites\sprSnowMonsterStaggerNorth</sprite>
+            <sprite>sprites\sprSnowMonsterStaggerWest</sprite>
+            <sprite>sprites\sprSnowMonsterStaggerEast</sprite>
+          </sprites>
+          <sprites name="Die">
+            <sprite>sprites\sprSnowMonsterDieSouth</sprite>
+            <sprite>sprites\sprSnowMonsterDieNorth</sprite>
+            <sprite>sprites\sprSnowMonsterDieWest</sprite>
+            <sprite>sprites\sprSnowMonsterDieEast</sprite>
+          </sprites>
+        </sprites>
+        <sprites name="Forest Monster">
+          <sprites name="Walk">
+            <sprite>sprites\sprForestMonsterWalkSouth</sprite>
+            <sprite>sprites\sprForestMonsterWalkNorth</sprite>
+            <sprite>sprites\sprForestMonsterWalkWest</sprite>
+            <sprite>sprites\sprForestMonsterWalkEast</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprForestMonsterIdleSouth</sprite>
+            <sprite>sprites\sprForestMonsterIdleNorth</sprite>
+            <sprite>sprites\sprForestMonsterIdleWest</sprite>
+            <sprite>sprites\sprForestMonsterIdleEast</sprite>
+          </sprites>
+          <sprites name="Attack">
+            <sprite>sprites\sprForestMonsterAttackSouth</sprite>
+            <sprite>sprites\sprForestMonsterAttackNorth</sprite>
+            <sprite>sprites\sprForestMonsterAttackWest</sprite>
+            <sprite>sprites\sprForestMonsterAttackEast</sprite>
+          </sprites>
+          <sprites name="Stagger">
+            <sprite>sprites\sprForestMonsterStaggerSouth</sprite>
+            <sprite>sprites\sprForestMonsterStaggerNorth</sprite>
+            <sprite>sprites\sprForestMonsterStaggerWest</sprite>
+            <sprite>sprites\sprForestMonsterStaggerEast</sprite>
+          </sprites>
+          <sprites name="Die">
+            <sprite>sprites\sprForestMonsterDieSouth</sprite>
+            <sprite>sprites\sprForestMonsterDieNorth</sprite>
+            <sprite>sprites\sprForestMonsterDieWest</sprite>
+            <sprite>sprites\sprForestMonsterDieEast</sprite>
+          </sprites>
+        </sprites>
+      </sprites>
+      <sprites name="NPCSprites">
+        <sprites name="Male">
+          <sprites name="Walking">
+            <sprite>sprites\sprNPCWalkSouth</sprite>
+            <sprite>sprites\sprNPCWalkNorth</sprite>
+            <sprite>sprites\sprNPCWalkEast</sprite>
+            <sprite>sprites\sprNPCWalkWest</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprNPCIdleSouth</sprite>
+            <sprite>sprites\sprNPCIdleNorth</sprite>
+            <sprite>sprites\sprNPCIdleEast</sprite>
+            <sprite>sprites\sprNPCIdleWest</sprite>
+          </sprites>
+        </sprites>
+        <sprites name="Female">
+          <sprites name="Walking">
+            <sprite>sprites\sprNPCGirlWalkSouth</sprite>
+            <sprite>sprites\sprNPCGirlWalkNorth</sprite>
+            <sprite>sprites\sprNPCGirlWalkEast</sprite>
+            <sprite>sprites\sprNPCGirlWalkWest</sprite>
+          </sprites>
+          <sprites name="Idle">
+            <sprite>sprites\sprNPCGirlIdleSouth</sprite>
+            <sprite>sprites\sprNPCGirlIdleNorth</sprite>
+            <sprite>sprites\sprNPCGirlIdleEast</sprite>
+            <sprite>sprites\sprNPCGirlIdleWest</sprite>
+          </sprites>
+        </sprites>
+      </sprites>
+      <sprites name="Skraggle Klaw">
+        <sprites name="Walk">
+          <sprite>sprites\sprSkraggleWalkSouth</sprite>
+          <sprite>sprites\sprSkraggleWalkNorth</sprite>
+          <sprite>sprites\sprSkraggleWalkEast</sprite>
+          <sprite>sprites\sprSkraggleWalkWest</sprite>
+        </sprites>
+        <sprites name="Idle">
+          <sprite>sprites\sprSkraggleIdleSouth</sprite>
+          <sprite>sprites\sprSkraggleIdleNorth</sprite>
+          <sprite>sprites\sprSkraggleIdleEast</sprite>
+          <sprite>sprites\sprSkraggleIdleWest</sprite>
+        </sprites>
+        <sprites name="Attack">
+          <sprite>sprites\sprSkraggleAttackWest</sprite>
+          <sprite>sprites\sprSkraggleAttackEast</sprite>
+          <sprite>sprites\sprSkraggleAttackSouth</sprite>
+          <sprite>sprites\sprSkraggleAttackNorth</sprite>
+        </sprites>
+        <sprites name="Stagger">
+          <sprite>sprites\sprSkraggleStaggerSouth</sprite>
+          <sprite>sprites\sprSkraggleStaggerNorth</sprite>
+          <sprite>sprites\sprSkraggleStaggerEast</sprite>
+          <sprite>sprites\sprSkraggleStaggerWest</sprite>
+        </sprites>
+        <sprite>sprites\sprSkraggleBones</sprite>
+        <sprite>sprites\sprSkraggleMask</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Obstacles">
+      <sprite>sprites\sprWallSquare</sprite>
+      <sprite>sprites\sprWallAngle</sprite>
+    </sprites>
+    <sprites name="Interactables">
+      <sprites name="Bush">
+        <sprite>sprites\sprGrass</sprite>
+        <sprite>sprites\sprBushCut</sprite>
+        <sprite>sprites\sprGrassStump</sprite>
+        <sprite>sprites\sprGrassSnow</sprite>
+        <sprite>sprites\sprBushCutSnow</sprite>
+        <sprite>sprites\sprCactus</sprite>
+        <sprite>sprites\sprBushCutDesert</sprite>
+        <sprite>sprites\sprCactusStump</sprite>
+      </sprites>
+      <sprite>sprites\sprPot</sprite>
+      <sprite>sprites\sprPotSmash</sprite>
+      <sprite>sprites\sprChestSmall</sprite>
+      <sprite>sprites\sprChestLarge</sprite>
+      <sprite>sprites\sprSign</sprite>
+    </sprites>
+    <sprites name="Collectibles">
+      <sprite>sprites\sprGreenGem</sprite>
+      <sprite>sprites\sprBlueGem</sprite>
+      <sprite>sprites\sprPurpleGem</sprite>
+      <sprite>sprites\sprHeart</sprite>
+    </sprites>
+    <sprites name="HUD">
+      <sprite>sprites\sprLifeHeart</sprite>
+      <sprite>sprites\sprCoinCounter</sprite>
+      <sprite>sprites\sprIconCircle</sprite>
+      <sprite>sprites\sprDialogueBox</sprite>
+      <sprite>sprites\sprDialogueArrow</sprite>
+    </sprites>
+    <sprites name="Transit">
+      <sprite>sprites\sprDoor</sprite>
+      <sprite>sprites\sprDoorDungeon</sprite>
+      <sprite>sprites\sprCave</sprite>
+      <sprite>sprites\sprCaveSnow</sprite>
+      <sprite>sprites\sprDesertCave</sprite>
+      <sprite>sprites\sprBlankDoor</sprite>
+      <sprite>sprites\sprDoorHouse</sprite>
+      <sprite>sprites\sprDoorBlank</sprite>
+    </sprites>
+    <sprites name="Inventory">
+      <sprites name="Skin">
+        <sprite>sprites\sprInventoryEquipped</sprite>
+        <sprite>sprites\sprInventoryClose</sprite>
+        <sprite>sprites\sprInventorySlot</sprite>
+        <sprite>sprites\sprInventorySelection</sprite>
+      </sprites>
+      <sprites name="Icons">
+        <sprite>sprites\sprIconWoodenSword</sprite>
+        <sprite>sprites\sprIconAwesomeSword</sprite>
+        <sprite>sprites\sprIconGoldenSword</sprite>
+        <sprite>sprites\sprIconLifePotion</sprite>
+      </sprites>
+      <sprite>sprites\sprPauseSaveLoad</sprite>
+      <sprite>sprites\sprOptions</sprite>
+      <sprite>sprites\sprInventoryInventory</sprite>
+      <sprite>sprites\sprEmptyWeapon</sprite>
+      <sprite>sprites\sprEmptyArmour</sprite>
+    </sprites>
+    <sprites name="Avatars">
+      <sprite>sprites\sprAvatarPlayerBoy</sprite>
+      <sprite>sprites\sprAvatarPlayerGirl</sprite>
+      <sprite>sprites\sprAvatarBlueHairGuy</sprite>
+      <sprite>sprites\sprAvatarBrownHairGal</sprite>
+      <sprite>sprites\sprAvatarSnowScorpion</sprite>
+      <sprite>sprites\sprAvatarDesertScorpion</sprite>
+      <sprite>sprites\sprAvatarForestScorpion</sprite>
+    </sprites>
+    <sprites name="Interface">
+      <sprite>sprites\sprPanels</sprite>
+      <sprite>sprites\sprButton</sprite>
+      <sprite>sprites\sprButtonLong</sprite>
+      <sprite>sprites\sprHeaderBackpack</sprite>
+      <sprite>sprites\sprHeaderEquipped</sprite>
+      <sprite>sprites\sprHeaderInfo</sprite>
+      <sprite>sprites\sprHeaderYouDied</sprite>
+      <sprite>sprites\sprHeaderOptions</sprite>
+      <sprite>sprites\sprBackpackBox</sprite>
+      <sprite>sprites\sprEquipBox</sprite>
+      <sprite>sprites\sprEquipInfo</sprite>
+      <sprite>sprites\sprEquipHighlight</sprite>
+      <sprite>sprites\sprToggleCross</sprite>
+      <sprite>sprites\sprToggleTick</sprite>
+      <sprite>sprites\sprSaveGameSlot</sprite>
+      <sprite>sprites\sprSaveSlotHeart</sprite>
+      <sprite>sprites\sprSaveSlotGem</sprite>
+    </sprites>
+    <sprite>sprites\sprTorch</sprite>
+    <sprite>sprites\sprMarkerNew</sprite>
+    <sprite>sprites\sprMarkerProgress</sprite>
+    <sprite>sprites\sprMarkerComplete</sprite>
+    <sprite>sprites\sprQuestMarker</sprite>
+    <sprite>sprites\sprCheckpoint</sprite>
+    <sprite>sprites\sprHeaderLoadGame</sprite>
+    <sprite>sprites\sprHeaderNewGame</sprite>
+    <sprite>sprites\sprPanelDecorCorner</sprite>
+    <sprite>sprites\sprPanelDecorTop</sprite>
+    <sprite>sprites\sprCharacterSelect</sprite>
+    <sprite>sprites\sprConfirmTextBox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_rpgmeadows</background>
     <background>background\bg_overworldtest</background>
+    <backgrounds name="for example purposes only">
+      <background>background\bg_top</background>
+      <background>background\bg_bottom</background>
+    </backgrounds>
+    <background>background\bgTemp</background>
+    <backgrounds name="Splash Screens">
+      <background>background\bckSplashGameMaker</background>
+    </backgrounds>
+    <backgrounds name="Animated Tiles">
+      <backgrounds name="Water">
+        <background>background\bckAnimationWater1</background>
+        <background>background\bckAnimationWater2</background>
+        <background>background\bckAnimationWater3</background>
+        <background>background\bckAnimationWater4</background>
+        <background>background\bckAnimationWater5</background>
+      </backgrounds>
+      <backgrounds name="Flowers">
+        <background>background\bckAnimationFlowers1</background>
+        <background>background\bckAnimationFlowers2</background>
+      </backgrounds>
+      <backgrounds name="Torch">
+        <background>background\bckAnimationTorch1</background>
+        <background>background\bckAnimationTorch2</background>
+        <background>background\bckAnimationTorch3</background>
+        <background>background\bckAnimationTorch4</background>
+        <background>background\bckAnimationTorch5</background>
+      </backgrounds>
+    </backgrounds>
+    <backgrounds name="Demo_Tile_Sheets">
+      <background>background\bckTown</background>
+      <background>background\bckChurchElements</background>
+      <background>background\bckForest_Interiors</background>
+      <background>background\bckDesert</background>
+      <background>background\bckDungeon</background>
+      <background>background\bckSnow</background>
+    </backgrounds>
+    <backgrounds name="Reccommended_Tile_Sheets">
+      <background>background\tilesTown</background>
+      <background>background\tilesInteriors</background>
+      <background>background\tilesForest</background>
+      <background>background\tilesDesert</background>
+      <background>background\tilesSnow</background>
+      <background>background\tilesDungeon</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_fightstart.gml</script>
-    <scripts name="Grumble Labs">
-      <script>scripts\scr_music_init.gml</script>
-      <script>scripts\scr_music_play.gml</script>
-      <script>scripts\scr_music_fadein_play.gml</script>
-      <script>scripts\scr_music_stop.gml</script>
-      <script>scripts\scr_music_fadeout.gml</script>
-      <script>scripts\scr_music_pause.gml</script>
-      <script>scripts\scr_music_unpause.gml</script>
-      <script>scripts\scr_music_crossfade_layer.gml</script>
-      <script>scripts\scr_music_set_global_volume.gml</script>
-      <script>scripts\scr_music_set_layer_volume.gml</script>
-      <script>scripts\scr_music_validTrack.gml</script>
-      <script>scripts\scr_music_step.gml</script>
-      <script>scripts\scr_music_get_player_number.gml</script>
-      <script>scripts\scr_music_crossfadeTaper.gml</script>
-      <script>scripts\scr_music_set_ID_volume.gml</script>
-      <script>scripts\scr_music_calculate_looping_crossfade_progress.gml</script>
-      <script>scripts\scr_music_calculate_layer_crossfade_progress.gml</script>
-      <script>scripts\scr_music_calculate_fadein_progress.gml</script>
-      <script>scripts\scr_music_calculate_fadeout_progress.gml</script>
+    <script>scripts\scr_sprite_explode.gml</script>
+    <script>scripts\scr_sprite_dissolve.gml</script>
+    <scripts name="resolution">
+      <script>scripts\resolution_set.gml</script>
+      <script>scripts\resolution_switch.gml</script>
+      <script>scripts\resolution_configure.gml</script>
+      <script>scripts\resolution_get_default.gml</script>
     </scripts>
+    <scripts name="Demo">
+      <script>scripts\set_zheight.gml</script>
+      <script>scripts\set_hover.gml</script>
+    </scripts>
+    <scripts name="Essential Scripts">
+      <scripts name="Drawing">
+        <script>scripts\draw_text_outlined.gml</script>
+        <script>scripts\draw_text_shadow.gml</script>
+        <script>scripts\draw_text_shadow_ext.gml</script>
+        <script>scripts\draw_sprite_outlined.gml</script>
+        <script>scripts\draw_sprite_shadow.gml</script>
+      </scripts>
+      <scripts name="String Manipulation">
+        <script>scripts\string_split.gml</script>
+      </scripts>
+      <scripts name="Approach Value">
+        <script>scripts\approach.gml</script>
+        <script>scripts\angle_approach.gml</script>
+        <script>scripts\smooth_approach.gml</script>
+      </scripts>
+      <scripts name="Chance Functions">
+        <script>scripts\percent_chance.gml</script>
+        <script>scripts\round_chance.gml</script>
+        <script>scripts\set_chance.gml</script>
+        <script>scripts\multi_chance.gml</script>
+      </scripts>
+      <scripts name="List Functions">
+        <script>scripts\ds_list_reverse.gml</script>
+        <script>scripts\ds_list_random.gml</script>
+        <script>scripts\ds_list_delete_all.gml</script>
+      </scripts>
+      <scripts name="Instance Functions">
+        <script>scripts\instance_list_random.gml</script>
+        <script>scripts\instance_nearest_list.gml</script>
+      </scripts>
+      <scripts name="Misc">
+        <script>scripts\mouse_over.gml</script>
+        <script>scripts\stick_to.gml</script>
+        <script>scripts\stick_to_angle.gml</script>
+        <script>scripts\within.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="TweenGMS">
+      <scripts name="Core">
+        <script>scripts\Ease.gml</script>
+        <script>scripts\TweenNull.gml</script>
+        <script>scripts\TweenFire.gml</script>
+        <script>scripts\TweenCreate.gml</script>
+        <script>scripts\TweenPlay.gml</script>
+        <script>scripts\TweenPause.gml</script>
+        <script>scripts\TweenResume.gml</script>
+        <script>scripts\TweenStop.gml</script>
+        <script>scripts\TweenFinish.gml</script>
+        <script>scripts\TweenFinishDelay.gml</script>
+        <script>scripts\TweenReverse.gml</script>
+        <script>scripts\TweenDestroy.gml</script>
+        <script>scripts\TGMS_TweenBool.gml</script>
+        <script>scripts\TGMS_Callback.gml</script>
+        <script>scripts\TGMS_Event.gml</script>
+        <script>scripts\TGMS_TweenGet.gml</script>
+        <script>scripts\TGMS_TweenSet.gml</script>
+        <script>scripts\TGMS_Utility.gml</script>
+        <script>scripts\SharedTweener.gml</script>
+      </scripts>
+      <scripts name="Eases and Properties">
+        <script>scripts\Default_Ease_Algorithms.gml</script>
+        <script>scripts\Default_Property_Setters.gml</script>
+        <script>scripts\Default_Property_Setters_Ext.gml</script>
+      </scripts>
+      <scripts name="Extra (Not Required)">
+        <script>scripts\TPExt.gml</script>
+        <script>scripts\TweenCalc.gml</script>
+        <script>scripts\TweenStep.gml</script>
+        <script>scripts\TweenCopy.gml</script>
+        <script>scripts\TweenDefine.gml</script>
+        <script>scripts\TweenDefault.gml</script>
+        <script>scripts\TweenPath.gml</script>
+        <script>scripts\TGMS_TweenSimple.gml</script>
+        <script>scripts\TGMS_TweenDataStructure.gml</script>
+        <script>scripts\TGMS_TweenView.gml</script>
+        <script>scripts\TGMS_TweenBackground.gml</script>
+        <script>scripts\TGMS_TweenTile.gml</script>
+        <script>scripts\TGMS_TweenSystem.gml</script>
+      </scripts>
+    </scripts>
+    <script>scripts\Save.gml</script>
+    <script>scripts\Load.gml</script>
+    <script>scripts\Approach.gml</script>
+    <script>scripts\OnGround.gml</script>
+    <scripts name="Trails">
+      <script>scripts\TrailAddNull.gml</script>
+      <script>scripts\TrailCreate.gml</script>
+      <script>scripts\TrailDraw.gml</script>
+      <script>scripts\TrailDrift.gml</script>
+      <script>scripts\TrailScatter.gml</script>
+      <script>scripts\TrailUpdate.gml</script>
+    </scripts>
+    <script>scripts\PlaceMeetingException.gml</script>
+    <scripts name="HUD">
+      <script>scripts\DrawLifeHearts.gml</script>
+      <script>scripts\DrawEquippedWeapon.gml</script>
+      <script>scripts\DrawCoinsCounter.gml</script>
+    </scripts>
+    <scripts name="Misc Functions">
+      <script>scripts\draw_text_outline.gml</script>
+      <script>scripts\PlaySound.gml</script>
+      <script>scripts\NewGame.gml</script>
+      <script>scripts\EndGame.gml</script>
+      <script>scripts\RestartGame.gml</script>
+      <script>scripts\Debug.gml</script>
+      <script>scripts\Array2List.gml</script>
+      <script>scripts\List2Array.gml</script>
+    </scripts>
+    <scripts name="Inventory">
+      <script>scripts\InventoryAdd.gml</script>
+      <script>scripts\ItemExtractArray.gml</script>
+      <script>scripts\ItemClear.gml</script>
+      <script>scripts\ItemInsertArray.gml</script>
+      <script>scripts\InventoryFindSlotEmpty.gml</script>
+      <script>scripts\InventoryFindSlotItem.gml</script>
+      <script>scripts\InventoryFindNumberItem.gml</script>
+      <script>scripts\ItemMatch.gml</script>
+    </scripts>
+    <scripts name="Sprite Sets">
+      <script>scripts\SetAvatar.gml</script>
+      <script>scripts\SetSpritesGirl.gml</script>
+      <script>scripts\SetSpritesBoy.gml</script>
+      <script>scripts\SetSpritesNPCMale.gml</script>
+      <script>scripts\SetSpritesNPCFemale.gml</script>
+      <script>scripts\SetSpritesSkraggleKlaw.gml</script>
+      <script>scripts\SetSpritesScorpion.gml</script>
+      <script>scripts\SetSpritesSnowScorpion.gml</script>
+      <script>scripts\SetSpritesDesertScorpion.gml</script>
+      <script>scripts\SetSpritesSnowMonster.gml</script>
+      <script>scripts\SetSpritesForestMonster.gml</script>
+    </scripts>
+    <scripts name="Weapon Sets">
+      <script>scripts\SetWeapon_WoodenSword.gml</script>
+      <script>scripts\SetWeapon_MetalSword.gml</script>
+      <script>scripts\SetWeapon_GoldenSword.gml</script>
+    </scripts>
+    <scripts name="Sprite Functions">
+      <script>scripts\SetSpriteFromFace.gml</script>
+    </scripts>
+    <scripts name="Mobile Functions">
+      <script>scripts\MobileDoCollision.gml</script>
+      <script>scripts\GetInstanceFromFace.gml</script>
+      <script>scripts\GetOppositeDirection.gml</script>
+    </scripts>
+    <scripts name="Animation">
+      <script>scripts\AnimationInit.gml</script>
+      <script>scripts\AnimationOrder.gml</script>
+      <script>scripts\AnimationAnimate.gml</script>
+    </scripts>
+    <scripts name="Dialogue">
+      <script>scripts\ShowDialogue.gml</script>
+      <script>scripts\DialogueHandleOutcome.gml</script>
+      <script>scripts\DialogueSetDefaults.gml</script>
+      <script>scripts\DialogueBegin.gml</script>
+      <script>scripts\Dialogue.gml</script>
+      <script>scripts\DialogueResponse.gml</script>
+      <script>scripts\DialogueItem.gml</script>
+    </scripts>
+    <scripts name="Items">
+      <script>scripts\ItemGetDefine.gml</script>
+      <script>scripts\ItemGetRubbishSword.gml</script>
+      <script>scripts\ItemGetAwesomeSword.gml</script>
+      <script>scripts\ItemGetGoldenSword.gml</script>
+      <script>scripts\ItemGetLifePotion.gml</script>
+    </scripts>
+    <scripts name="Quests">
+      <scripts name="System">
+        <scripts name="Manager">
+          <script>scripts\QuestManagerStart.gml</script>
+          <script>scripts\QuestInstanceAccept.gml</script>
+        </scripts>
+        <scripts name="Define">
+          <script>scripts\QuestNew.gml</script>
+          <script>scripts\QuestRequisite.gml</script>
+          <script>scripts\QuestCondition.gml</script>
+          <script>scripts\QuestEffect.gml</script>
+          <script>scripts\QuestGiver.gml</script>
+          <script>scripts\QuestDialogueBegin.gml</script>
+          <script>scripts\QuestDialogueContext.gml</script>
+          <script>scripts\QuestDialogue.gml</script>
+          <script>scripts\QuestDialogueResponse.gml</script>
+          <script>scripts\QuestDialogueAccept.gml</script>
+          <script>scripts\QuestDialogueItem.gml</script>
+        </scripts>
+        <scripts name="Update">
+          <script>scripts\QuestUpdateStart.gml</script>
+          <script>scripts\QuestUpdate.gml</script>
+          <script>scripts\QuestComplete.gml</script>
+          <script>scripts\QuestHandIn.gml</script>
+          <script>scripts\QuestStart.gml</script>
+          <script>scripts\QuestCheckConditions.gml</script>
+          <script>scripts\QuestCheckRequisites.gml</script>
+          <script>scripts\QuestCheckEffects.gml</script>
+        </scripts>
+        <scripts name="Checks">
+          <script>scripts\CheckQuestComplete.gml</script>
+          <script>scripts\CheckQuestHandIn.gml</script>
+          <script>scripts\CheckQuestInProgress.gml</script>
+          <script>scripts\CheckItemEquipped.gml</script>
+          <script>scripts\CheckItemInventory.gml</script>
+          <script>scripts\CheckHasCoins.gml</script>
+          <script>scripts\CheckTalkToNpc.gml</script>
+          <script>scripts\CheckEnemyDefeated.gml</script>
+          <script>scripts\CheckExploreArea.gml</script>
+        </scripts>
+        <scripts name="Effects">
+          <script>scripts\EffectStartQuest.gml</script>
+          <script>scripts\EffectFinishQuest.gml</script>
+          <script>scripts\EffectGiveItem.gml</script>
+          <script>scripts\EffectTakeCoins.gml</script>
+          <script>scripts\EffectSpawnObject.gml</script>
+          <script>scripts\EffectSpawnObjectContents.gml</script>
+        </scripts>
+        <scripts name="Events">
+          <script>scripts\EventLog.gml</script>
+          <script>scripts\EventScanStart.gml</script>
+          <script>scripts\EventScanAdvanceTo.gml</script>
+        </scripts>
+        <scripts name="Other">
+          <script>scripts\NpcQuestMarker.gml</script>
+        </scripts>
+      </scripts>
+      <scripts name="Questlines">
+        <scripts name="Hero Of The Land">
+          <script>scripts\Quest_MonsterSlayer.gml</script>
+          <script>scripts\Quest_FindingWanda.gml</script>
+          <script>scripts\Quest_TheGoldenSword.gml</script>
+          <script>scripts\Quest_ScoutingTheLand.gml</script>
+          <script>scripts\Quest_SkraggleKlaw.gml</script>
+          <script>scripts\Quest_DefeatSkraggleKlaw.gml</script>
+          <script>scripts\Quest_VictoriousReturn.gml</script>
+        </scripts>
+        <scripts name="Test Quests">
+          <script>scripts\Quest_JacksEpicTest.gml</script>
+        </scripts>
+      </scripts>
+    </scripts>
+    <scripts name="Saving">
+      <scripts name="Loading">
+        <script>scripts\SaveGame.gml</script>
+        <script>scripts\LoadGame.gml</script>
+        <script>scripts\PersistanceLog.gml</script>
+        <script>scripts\StringCompressZeros.gml</script>
+      </scripts>
+    </scripts>
+    <script>scripts\LocationName.gml</script>
+    <script>scripts\DrawPanel.gml</script>
+    <script>scripts\DrawButton.gml</script>
+    <script>scripts\DrawButtonLong.gml</script>
+    <script>scripts\StringSepNumber.gml</script>
+    <script>scripts\ConfirmSlot.gml</script>
+    <script>scripts\ConfirmSave.gml</script>
+    <script>scripts\ConfirmLoad.gml</script>
+    <script>scripts\file_check.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\sha_pixel.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\Sans</font>
-    <fonts name="Grumble Labs">
-      <font>fonts\fnt_music_example</font>
-    </fonts>
+    <font>fonts\fnt_main</font>
+    <font>fonts\fnt_button</font>
+    <font>fonts\fntHud</font>
+    <font>fonts\fntDialogue</font>
+    <font>fonts\fntInformation</font>
+    <font>fonts\fntNotification</font>
+    <font>fonts\fntInterface</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player_heart</object>
@@ -148,20 +1545,209 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_txtbox</object>
     <object>objects\obj_txt</object>
-    <objects name="Grumble Labs">
-      <object>objects\obj_music_player</object>
-      <object>objects\obj_example_room_controls</object>
+    <objects name="rm_explosion">
+      <object>objects\obj_demo_controller</object>
+      <object>objects\obj_demo_player</object>
+      <object>objects\obj_demo_particle</object>
     </objects>
+    <objects name="rm_dissolve">
+      <object>objects\obj_dissolve_controller</object>
+      <object>objects\obj_dissolve_particle</object>
+      <object>objects\obj_dissolve_player</object>
+    </objects>
+    <object>objects\HELP</object>
+    <object>objects\obj_resolution</object>
+    <objects name="for example purposes only">
+      <object>objects\obj_control</object>
+      <object>objects\obj_option_arrow</object>
+      <object>objects\obj_apply</object>
+      <object>objects\obj_fullscreen</object>
+    </objects>
+    <objects name="TweenGMS">
+      <object>objects\obj_SharedTweener</object>
+    </objects>
+    <object>objects\obj_solid</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_Platform_Hor</object>
+    <object>objects\obj_Platform_Ver</object>
+    <object>objects\obj_key</object>
+    <object>objects\obj_death</object>
+    <object>objects\obj_enemy_new</object>
+    <object>objects\obj_coin</object>
+    <object>objects\obj_room_controller</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_enemy2</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\BasePC</object>
+    <object>objects\oGame</object>
+    <objects name="Parents">
+      <object>objects\oParSolid</object>
+      <object>objects\oParEntity</object>
+    </objects>
+    <objects name="Terrain">
+      <object>objects\oBlock</object>
+      <object>objects\oSlopeR</object>
+      <object>objects\oSlopeL</object>
+      <object>objects\oSlopeUR</object>
+      <object>objects\oSlopeUL</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\oPlayer</object>
+      <object>objects\oGunPickup</object>
+      <object>objects\oBullet</object>
+      <object>objects\oExplosion</object>
+      <object>objects\oBlood</object>
+      <object>objects\oCamera</object>
+      <object>objects\oParticle</object>
+      <object>objects\objPlayer</object>
+      <object>objects\objPlayerCharacter</object>
+      <object>objects\objPlayerStrike</object>
+    </objects>
+    <objects name="Enemy">
+      <object>objects\oEnemy</object>
+      <object>objects\oEnemyBullet</object>
+      <object>objects\oEnemyExplosion</object>
+      <object>objects\oEnemyBlood</object>
+    </objects>
+    <object>objects\objGame</object>
+    <objects name="Mobiles">
+      <objects name="Parents">
+        <object>objects\parMobile</object>
+        <object>objects\parMortal</object>
+        <object>objects\parNpc</object>
+        <object>objects\parEnemy</object>
+      </objects>
+      <objects name="Dociles">
+        <object>objects\objChicken</object>
+      </objects>
+      <objects name="Enemies">
+        <object>objects\objScorpion</object>
+        <object>objects\objSnowScorpions</object>
+        <object>objects\objDesertScorpion</object>
+        <object>objects\objSnowMonster</object>
+        <object>objects\objForestMonster</object>
+      </objects>
+      <objects name="NPCs">
+        <object>objects\objTestNpc</object>
+      </objects>
+      <objects name="Bosses">
+        <object>objects\objSkraggleKlaw</object>
+      </objects>
+    </objects>
+    <objects name="Obstacles">
+      <objects name="Related">
+        <object>objects\objTemporary</object>
+      </objects>
+      <object>objects\parObstacleFull</object>
+      <object>objects\parObstacle</object>
+      <object>objects\objWallSquare</object>
+      <object>objects\objWallAngle</object>
+      <object>objects\objGrass</object>
+      <object>objects\objGrassSnow</object>
+      <object>objects\objCactus</object>
+      <object>objects\objPot</object>
+    </objects>
+    <objects name="Collectibles">
+      <object>objects\parCollectible</object>
+      <object>objects\objGreenGem</object>
+      <object>objects\objBlueGem</object>
+      <object>objects\objPurpleGem</object>
+      <object>objects\objLifeHeart</object>
+    </objects>
+    <objects name="Interactables">
+      <object>objects\parInteract</object>
+      <object>objects\objSign</object>
+      <object>objects\objChest</object>
+    </objects>
+    <objects name="Dialogue">
+      <object>objects\objDialogueBox</object>
+    </objects>
+    <objects name="Transit">
+      <object>objects\parDoor</object>
+      <object>objects\objDoor</object>
+      <object>objects\objDoorDungeon</object>
+      <object>objects\objCaveEntrance</object>
+      <object>objects\objCaveEntranceSnow</object>
+      <object>objects\objCaveEntranceDesert</object>
+      <object>objects\objDoorHouse</object>
+      <object>objects\objDoorBlanker</object>
+      <object>objects\objBlank</object>
+    </objects>
+    <objects name="Decoration">
+      <object>objects\objTorch</object>
+    </objects>
+    <objects name="Quests">
+      <object>objects\objQuestManager</object>
+      <object>objects\objQuestMarker</object>
+    </objects>
+    <objects name="Pause Menus">
+      <object>objects\parPauseMenu</object>
+      <object>objects\objInventory</object>
+      <object>objects\objOptions</object>
+      <object>objects\objSaveLoad</object>
+    </objects>
+    <object>objects\objTitle</object>
+    <object>objects\objCharacterSelect</object>
+    <object>objects\objTransition</object>
+    <object>objects\objPickupNotification</object>
+    <object>objects\objNewObject</object>
+    <object>objects\objMusicPlayer</object>
+    <object>objects\objSplashScreen</object>
+    <object>objects\objConstants</object>
+    <object>objects\objCheckpoint</object>
+    <object>objects\objNewGame</object>
+    <object>objects\objLoadGame</object>
+    <object>objects\objDeathScreen</object>
+    <object>objects\objConfirmation</object>
+    <object>objects\obj_version</object>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
     <rooms name="Grumble Labs">
       <room>rooms\rm_music_example_room</room>
     </rooms>
+=======
+    <room>rooms\room0</room>
+    <room>rooms\rm_init</room>
+    <room>rooms\room1</room>
+>>>>>>> origin/master
     <room>rooms\rm_meadowsfight</room>
     <room>rooms\rm_overworldtest</room>
     <room>rooms\rm_hearttest</room>
     <room>rooms\rm_touhoutest</room>
     <room>rooms\rm_smashtest</room>
+<<<<<<< HEAD
+=======
+    <room>rooms\rm_demo_dissolve</room>
+    <room>rooms\rm_demo_explosion</room>
+    <room>rooms\rm_main</room>
+    <room>rooms\rm_transition</room>
+    <room>rooms\room2</room>
+    <room>rooms\rmSplashGameMaker</room>
+    <rooms name="Title">
+      <room>rooms\rmTitle</room>
+      <room>rooms\rmSlotSelect</room>
+      <room>rooms\rmLoadGame</room>
+      <room>rooms\rmOptions</room>
+      <room>rooms\rmCharacterSelect</room>
+    </rooms>
+    <room>rooms\rmTownNew</room>
+    <room>rooms\rmDesert</room>
+    <room>rooms\rmDesertCave</room>
+    <room>rooms\rmDungeon</room>
+    <room>rooms\rmSmallDungeon</room>
+    <room>rooms\rmForest</room>
+    <room>rooms\rmInn</room>
+    <room>rooms\rmNewChapel</room>
+    <room>rooms\rmSmallChapel</room>
+    <room>rooms\rmSnow</room>
+    <room>rooms\rmSnowCave1</room>
+    <room>rooms\rmSnowCave2</room>
+    <room>rooms\rmStorage</room>
+    <room>rooms\rmWeaponShop</room>
+    <room>rooms\rmSkraggleRoom</room>
+    <room>rooms\room0_new</room>
+>>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
