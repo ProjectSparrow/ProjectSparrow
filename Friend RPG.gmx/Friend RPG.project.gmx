@@ -1543,7 +1543,6 @@
     <object>objects\obj_invis_barrier</object>
     <object>objects\obj_dasheffect</object>
     <object>objects\obj_enemy</object>
-    <object>objects\obj_txtbox</object>
     <object>objects\obj_txt</object>
     <objects name="rm_explosion">
       <object>objects\obj_demo_controller</object>
@@ -1703,6 +1702,7 @@
   </objects>
   <rooms name="rooms">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <rooms name="Grumble Labs">
       <room>rooms\rm_music_example_room</room>
     </rooms>
@@ -1711,11 +1711,14 @@
     <room>rooms\rm_init</room>
     <room>rooms\room1</room>
 >>>>>>> origin/master
+=======
+>>>>>>> parent of a593835... ???
     <room>rooms\rm_meadowsfight</room>
     <room>rooms\rm_overworldtest</room>
     <room>rooms\rm_hearttest</room>
     <room>rooms\rm_touhoutest</room>
     <room>rooms\rm_smashtest</room>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     <room>rooms\rm_demo_dissolve</room>
@@ -1748,6 +1751,11 @@
     <room>rooms\rmSkraggleRoom</room>
     <room>rooms\room0_new</room>
 >>>>>>> origin/master
+=======
+    <rooms name="Grumble Labs">
+      <room>rooms\rm_music_example_room</room>
+    </rooms>
+>>>>>>> parent of a593835... ???
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
